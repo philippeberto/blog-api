@@ -1,0 +1,24 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "A model of a REST API made by Rodrigo Branas on a tutorial in his youtube channel.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --env node --detectOpenHandles",
+    "dev": "node src/index"
+  },
+  "keywords": [
+    "rest-api",
+    "node",
+    "express",
+    "postgres"
+  ],
+  "author": "Philippe Berto",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "pg-promise": "^10.11.1"
+  }
+}
